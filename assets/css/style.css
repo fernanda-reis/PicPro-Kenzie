@@ -108,6 +108,14 @@ body {
   cursor: pointer;
 }
 
+.secaoDetalhesConta_itemTransacao {
+  cursor: pointer;
+}
+
+.secaoDetalhesConta_itemTransacao:hover {
+  background-color: #ffffff35;
+}
+
 .secaoDetalhesConta_opcoesTransacoes {
     display: flex;
     justify-content: space-between;
@@ -140,6 +148,15 @@ body {
     border-radius: 20px 20px 0 0;
     border-bottom: 15px solid #f0f0f0;
     padding: 30px 0;
+    min-height: 60vh;
+}
+
+.secaoTransacao .container div {
+  display: none;
+}
+
+.secaoTransacao .container div.show{
+  display: block;
 }
 
 .secaoTransacao_avisoSelecao p {
